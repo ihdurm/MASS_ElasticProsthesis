@@ -1,0 +1,11 @@
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/CMakeFiles/edit_cache.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/CMakeFiles/rebuild_cache.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/core/CMakeFiles/mss.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/core/CMakeFiles/edit_cache.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/core/CMakeFiles/rebuild_cache.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/render/CMakeFiles/render.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/render/CMakeFiles/edit_cache.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/render/CMakeFiles/rebuild_cache.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/python/CMakeFiles/pymss.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/python/CMakeFiles/edit_cache.dir
+/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/python/CMakeFiles/rebuild_cache.dir

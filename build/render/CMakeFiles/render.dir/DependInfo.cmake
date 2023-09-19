@@ -1,0 +1,21 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/render/Window.cpp" "render/CMakeFiles/render.dir/Window.cpp.o" "gcc" "render/CMakeFiles/render.dir/Window.cpp.o.d"
+  "/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/render/main.cpp" "render/CMakeFiles/render.dir/main.cpp.o" "gcc" "render/CMakeFiles/render.dir/main.cpp.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/ibrahim/Downloads/MASS_toPass_V2_NewElas_0/build/core/CMakeFiles/mss.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")
