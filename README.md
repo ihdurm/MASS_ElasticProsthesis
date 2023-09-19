@@ -1,23 +1,35 @@
-# MASS(Muscle-Actuated Skeletal System)
+# Elastic Prosthesis Simulation for Amputees
 
-![Teaser](png/Teaser.png)
+This repository is a modified version of the original project developed by [Seunghwan Lee, Kyoungmin Lee, Moonseok Park, and Jehee Lee]. My modifications focus on adapting the simulation to include the elastic prosthetic behavior, making it suitable for amputee walking simulation.
+
 ## Abstract
 
-This code implements a basic simulation and control for full-body **Musculoskeletal** system. Skeletal movements are driven by the actuation of the muscles, coordinated by activation levels. Interfacing with python and pytorch, it is available to use Deep Reinforcement Learning(DRL) algorithm such as Proximal Policy Optimization(PPO).
+This code implements a simulation and control for the full-body Musculoskeletal system, adapted to simulate walking in amputees using an elastic prosthesis. Skeletal movements are driven by the actuation of the muscles, coordinated by activation levels. With Python and PyTorch interfacing, it utilizes Deep Reinforcement Learning(DRL) algorithms such as Proximal Policy Optimization(PPO).
 
-## Publications
+## Original Work References
 
-Seunghwan Lee, Kyoungmin Lee, Moonseok Park, and Jehee Lee 
-Scalable Muscle-actuated Human Simulation and Control, 
-ACM Transactions on Graphics (SIGGRAPH 2019), Volume 37, Article 73. 
+- **Paper**: [Scalable Muscle-actuated Human Simulation and Control](http://mrl.snu.ac.kr/research/ProjectScalable/Paper.pdf), ACM Transactions on Graphics (SIGGRAPH 2019).
+- **Project Page**: [Link](http://mrl.snu.ac.kr/research/ProjectScalable/Page.htm)
+- **YouTube**: [Video](https://youtu.be/a3jfyJ9JVeM)
 
-Project Page : http://mrl.snu.ac.kr/research/ProjectScalable/Page.htm
+## Changes Made
 
-Youtube : https://youtu.be/a3jfyJ9JVeM
+In this fork, the following significant modifications have been made to adapt the original simulation:
 
-Paper : http://mrl.snu.ac.kr/research/ProjectScalable/Paper.pdf
+- **Character Alteration**: Replaced the original character model with a transtibial amputee character to simulate the walking behavior of amputees.
 
-## How to install
+- **Elastic Behavior**: 
+  - Implemented virtual elastic bodies to provide an elastic behavior to the prosthetic.
+  - Added attributes such as stiffness and damping to the virtual elastic bodies.
+  - Integrated friction behavior for the virtual elastic body to enhance the simulation realism.
+  - Derived the values for stiffness and damping from FEA (Finite Element Analysis) simulations of a unisotropic composite prosthesis sole model.
+
+- **Data and Analysis Tools**:
+  - Integrated Python automated graph generation tools to visualize walking trainings.
+  - Implemented features to write various data points, such as tibial angles, into txt outputs for further analysis.
+  - Enhanced the training reward points system and ensured the data is captured efficiently.
+
+## How to install (From original authors.)
 
 ### Install TinyXML, Eigen, OpenGL, assimp, Python3, etc...
 
