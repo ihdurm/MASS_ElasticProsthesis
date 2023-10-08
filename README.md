@@ -1,5 +1,7 @@
 # Elastic Prosthesis Simulation for Amputees
 
+![Teaser](png/Transtibial.png)
+
 This repository is a modified version of the original project developed by [Seunghwan Lee, Kyoungmin Lee, Moonseok Park, and Jehee Lee]. My modifications focus on adapting the simulation to include the elastic prosthetic behavior, making it suitable for amputee walking simulation.
 
 ## Abstract
